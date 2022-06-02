@@ -76,16 +76,25 @@ img {
 }
 
 .title {
-    height: 100px;
+    height: 80px;
     text-align: center;
     margin-top: 20px;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .container {
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
+    align-items: start;
+    margin-bottom: 50px;
     gap: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
