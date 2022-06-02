@@ -12,17 +12,20 @@ body {
 .header {
     height: 100px;
     background-color: #1f2937;
-    color: white;
+    color: rgb(230, 230, 230);
+    font-size: medium;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding: 20px 150px;
+    padding: 20px 300px;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 60px;
+    gap: 40px;
+    font-weight: 300;
 }
 
 a {
@@ -30,18 +33,46 @@ a {
     color: white;
 }
 
+h1 {
+    padding-bottom: 15px;
+}
+
 .section-one {
     height: 300px;
-    background-color: #1f2937;
+    background-color: #446fab;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding: 20px 150px;
+    padding: 20px 300px;
+}
+
+.button {
+    /* height: 50px;
+    width: 100px; */
+}
+
+button {
+    margin-top: 15px;
+    font-size: large;
+    color: white;
+    background-color: #1f2937;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .text-content {
-    /* width: 500px; */
+    width: 500px;
+}
+
+.header-photo, img {
+    height: auto;
+    width: 225px;
+}
+
+img {
+    border: 8px solid #1f2937;
+    border-radius: 20px;
 }
 
 .title {
