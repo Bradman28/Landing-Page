@@ -10,15 +10,19 @@ body {
 }
 
 .header {
-    height: 100px;
-    background-color: #1f2937;
-    color: rgb(230, 230, 230);
-    font-size: medium;
-    font-weight: 700;
+
     display: flex;
     justify-content: space-between;
     align-items: start;
     padding: 20px 300px;
+}
+
+.header, .footer {
+    height: 75px;
+    background-color: #1f2937;
+    color: rgb(230, 230, 230);
+    font-size: medium;
+    font-weight: 700;
 }
 
 ul {
@@ -36,6 +40,8 @@ a {
 h1 {
     padding-bottom: 15px;
 }
+
+/* This is the first main section */
 
 .section-one {
     height: 300px;
@@ -79,9 +85,11 @@ img {
     height: 80px;
     text-align: center;
     margin-top: 20px;
-    font-size: x-large;
+    font-size: 2em;
     font-weight: 700;
 }
+
+/* This is the section for the line of pictures */
 
 .container {
     height: 300px;
@@ -97,16 +105,19 @@ img {
     justify-content: center;
 }
 
+/* This is the section for the quote */
+
 .quote {
     height: 300px;
-    width: 500px;
+    width: 700px;
+    font-size: 1.75em;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-   
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quote-text {
@@ -114,5 +125,17 @@ img {
 }
 
 .quote-author {
-    text-align: end;
+    padding-top: 10px;
+    margin-left: 400px;
+}
+
+.final-section {
+    height: 300px;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
