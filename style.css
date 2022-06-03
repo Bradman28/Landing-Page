@@ -10,10 +10,9 @@ body {
 }
 
 .header {
-
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     padding: 20px 300px;
 }
 
@@ -44,7 +43,7 @@ h1 {
 /* This is the first main section */
 
 .section-one {
-    height: 300px;
+    height: 350px;
     background-color: #446fab;
     color: white;
     display: flex;
@@ -73,7 +72,7 @@ button {
 
 .header-photo, img {
     height: auto;
-    width: 225px;
+    width: 275px;
 }
 
 img {
@@ -100,12 +99,21 @@ img {
     gap: 50px;
 }
 
+.image-size {
+    height: 200px;
+    width: 200px;
+}
+
 .text {
     display: flex;
     justify-content: center;
 }
 
 /* This is the section for the quote */
+
+.section-three {
+    background-color: rgb(190, 209, 209);
+}
 
 .quote {
     height: 300px;
@@ -116,6 +124,8 @@ img {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,10 +139,29 @@ img {
     margin-left: 400px;
 }
 
+/* This is the final section */
+
 .final-section {
-    height: 300px;
+    height: 150px;
+    border: 5px solid #1f2937;
+    border-radius: 20px;
+    color: white;
+    background-color: #446fab;
+    margin: 50px 200px 50px 200px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.final-text {
+    font-size: 1.5em;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
 
 .footer {
     display: flex;
