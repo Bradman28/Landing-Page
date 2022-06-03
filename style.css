@@ -98,13 +98,21 @@ img {
 }
 
 .quote {
+    height: 300px;
+    width: 500px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+    
 }
 
-p {
-    font-size: larger;
-    
+.quote-text {
+    text-align: start;
+}
+
+.quote-author {
+    text-align: end;
 }
